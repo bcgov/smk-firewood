@@ -1,0 +1,13 @@
+{
+    "name": "smk-firewood",
+    "version": "0.0.1",
+    "description": "My Simple Map Kit application.",
+    "author": "Map Team",
+    "dependencies": {
+        "@bcgov/smk": "1.0.6",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}

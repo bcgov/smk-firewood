@@ -1,0 +1,1850 @@
+{
+    "name": "smk-firewood",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -124.74975585937501,
+                51.883272964437474
+            ],
+            "extent": [
+                -129.81445312500003,
+                47.14489748555398,
+                -119.68505859375001,
+                56.17002298293205
+            ],
+            "zoom": 6
+        },
+        "baseMap": "Imagery"
+    },
+    "layers": [
+        {
+            "type": "esri-dynamic",
+            "id": 5381,
+            "title": "Municipalities - ABMS - Colour Themed",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 10000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "LGL_ADMIN_AREA_ID",
+                    "title": "Lgl Admin Area Id",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_AREA_NAME",
+                    "title": "Admin Area Name",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_AREA_ABBREVIATION",
+                    "title": "Admin Area Abbreviation",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_AREA_BOUNDARY_TYPE",
+                    "title": "Admin Area Boundary Type",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_AREA_TYPE",
+                    "title": "Admin Area Type",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_AREA_GROUP_NAME",
+                    "title": "Admin Area Group Name",
+                    "visible": true
+                },
+                {
+                    "name": "CHANGE_REQUESTED_ORG",
+                    "title": "Change Requested Org",
+                    "visible": true
+                },
+                {
+                    "name": "UPDATE_TYPE",
+                    "title": "Update Type",
+                    "visible": true
+                },
+                {
+                    "name": "WHEN_UPDATED",
+                    "title": "When Updated",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Feature Length M",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "Objectid",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "Se Anno Cad Data",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape.area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape.len",
+                    "visible": false
+                },
+                {
+                    "name": "OIC_NUMBER",
+                    "title": "OIC Number",
+                    "visible": true
+                },
+                {
+                    "name": "OIC_YEAR",
+                    "title": "OIC Year",
+                    "visible": true
+                },
+                {
+                    "name": "AFFECTED_ADMIN_AREA_ABRVN",
+                    "title": "Affected Administrative Area Abreviation",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "5381",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":5381,\"minScale\":10000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_LEGAL_ADMIN_BOUNDARIES.ABMS_MUNICIPALITIES_SP\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[232,190,255,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[104,104,104,255],\"width\":0.4}},\"label\":\"Municipalities\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[ADMIN_AREA_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,253],\"haloSize\":2,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":500001,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/e3c3c580-996a-4668-8bc5-6aa7c7dc4932"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 2889,
+            "title": "Managed Licence Poly - All - FTEN - Colour Themed",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 100000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FOREST_FILE_ID",
+                    "title": "Forest File ID",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_BLOCK_ID",
+                    "title": "Map Block ID",
+                    "visible": true
+                },
+                {
+                    "name": "ML_TYPE_CODE",
+                    "title": "Type Code",
+                    "visible": true
+                },
+                {
+                    "name": "ML_COMMENT",
+                    "title": "Comment",
+                    "visible": true
+                },
+                {
+                    "name": "RETIREMENT_DATE",
+                    "title": "Retirement Date",
+                    "visible": true
+                },
+                {
+                    "name": "AMENDMENT_ID",
+                    "title": "Amendment ID",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_LABEL",
+                    "title": "Map Label",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "Geometry",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA",
+                    "title": "Feature Area",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_PERIMETER",
+                    "title": "Feature Perimetre",
+                    "visible": true
+                },
+                {
+                    "name": "CLIENT_NUMBER",
+                    "title": "Client Number",
+                    "visible": true
+                },
+                {
+                    "name": "CLIENT_NAME",
+                    "title": "Client Name",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CLASS_SKEY",
+                    "title": "Feature Class SKey",
+                    "visible": true
+                },
+                {
+                    "name": "FILE_STATUS_CODE",
+                    "title": "File Status Code",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_DISTRICT_CODE",
+                    "title": "Admin District Code",
+                    "visible": true
+                },
+                {
+                    "name": "ADMIN_DISTRICT_NAME",
+                    "title": "Admin District Name",
+                    "visible": true
+                },
+                {
+                    "name": "LIFE_CYCLE_STATUS_CODE",
+                    "title": "Life Cycle Status Code",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "Object ID",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "Geometry Area",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "Geometry Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "2889",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":2889,\"minScale\":100000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_FOREST_TENURE.FTEN_MANAGED_LICENCE_POLY_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,153,51,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[0,0,0,0],\"width\":0}},\"label\":\"\",\"description\":\"\"},\"transparency\":50,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/c3e96239-cdc9-4328-ac19-58fba1623ef8"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 6215,
+            "title": "Conservation Lands - All",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 10000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "CONSERVATION_LAND_ID",
+                    "title": "Conservation Lands ID",
+                    "visible": true
+                },
+                {
+                    "name": "SITE_NAME",
+                    "title": "Site Name",
+                    "visible": true
+                },
+                {
+                    "name": "SITE_NUMBER",
+                    "title": "Site Number",
+                    "visible": true
+                },
+                {
+                    "name": "CONSERVATION_LAND_TYPE",
+                    "title": "Conservation Lands Type",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_TYPE",
+                    "title": "Tenure Type",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_DESCRIPTION",
+                    "title": "Tenure Description",
+                    "visible": true
+                },
+                {
+                    "name": "LEGAL_DESCRIPTION",
+                    "title": "Legal Description",
+                    "visible": true
+                },
+                {
+                    "name": "TANTALIS_LANDS_FILE_NUMBER",
+                    "title": "Tantalis Lands File Number",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_AREA_IN_HECTARES",
+                    "title": "Tenure Area (HA)",
+                    "visible": true
+                },
+                {
+                    "name": "PID",
+                    "title": "PID",
+                    "visible": true
+                },
+                {
+                    "name": "LAND_TITLE",
+                    "title": "Land Title",
+                    "visible": true
+                },
+                {
+                    "name": "PIN",
+                    "title": "PIN",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "6215",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":6215,\"minScale\":10000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSBackwardDiagonal\",\"color\":[170,255,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[152,230,0,255],\"width\":1.5}},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[SITE_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,255,255,253],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":9,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":100000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 2219,
+            "title": "Integrated Cadastral Fabric - Private Ownership",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 20001,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "PIN_SID",
+                    "title": "PIN - Crown Parcel ID",
+                    "visible": true
+                },
+                {
+                    "name": "PID",
+                    "title": "PID - LTSA Parcel ID",
+                    "visible": true
+                },
+                {
+                    "name": "OWNERSHIP_CLASS",
+                    "title": "Ownership Class",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "2219",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":2219,\"minScale\":20001,\"maxScale\":0,\"definitionExpression\":\"OWNERSHIP_CLASS = 'PRIVATE'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"OWNERSHIP_CLASS\",\"field2\":null,\"field3\":null,\"defaultSymbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,255,191,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[178,178,178,255],\"width\":0.4}},\"defaultLabel\":\"Private Land (Surface)\",\"uniqueValueInfos\":[],\"fieldDelimiter\":\",\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 4734,
+            "title": "Integrated Cadastral Fabric - Federal Ownership",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 20000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "PIN_SID",
+                    "title": "PIN - Crown Parcel ID",
+                    "visible": true
+                },
+                {
+                    "name": "PID",
+                    "title": "PID - LTSA Parcel ID",
+                    "visible": true
+                },
+                {
+                    "name": "OWNERSHIP_CLASS",
+                    "title": "Ownership Class",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "4734",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":4734,\"minScale\":20000,\"maxScale\":0,\"definitionExpression\":\"OWNERSHIP_CLASS = 'CROWN FEDERAL'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,171,231,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[178,178,178,255],\"width\":0.4}},\"label\":\"Surveyed Federal Land (Surface)\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 749,
+            "title": "Wildlife Habitat Areas - Approved - Colour Themed",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 1000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "HABITAT_AREA_ID",
+                    "title": "HABITAT_AREA_ID",
+                    "visible": false
+                },
+                {
+                    "name": "TAG",
+                    "title": "WHA Number",
+                    "visible": true
+                },
+                {
+                    "name": "APPROVAL_DATE",
+                    "title": "Approval Date",
+                    "visible": true
+                },
+                {
+                    "name": "NOTICE_DATE",
+                    "title": "Date of Notice",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_NOTES",
+                    "title": "Feature Notes",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "ORG_ORGANIZATION_ID",
+                    "title": "MOE Region",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "COMMON_SPECIES_NAME",
+                    "title": "Common Species Name",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "Area m2",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "LEGISLATION_ACT_NAME",
+                    "title": "Legislation Act Name",
+                    "visible": true
+                },
+                {
+                    "name": "TIMBER_HARVEST_CODE",
+                    "title": "Timber Harvest Code",
+                    "visible": true
+                },
+                {
+                    "name": "HECTARES",
+                    "title": "HECTARES",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "749",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":749,\"minScale\":1000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_WILDLIFE_MANAGEMENT.WCP_WILDLIFE_HABITAT_AREA_POLY\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"FEATURE_CODE\",\"field2\":null,\"field3\":null,\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSHorizontal\",\"color\":[255,170,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[0,0,0,0],\"width\":0}},\"value\":\"FF33515110\",\"label\":\"Wildlife Habitat Area - Buffer\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSBackwardDiagonal\",\"color\":[230,0,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[0,0,0,0],\"width\":0}},\"value\":\"FF33515120\",\"label\":\"Wildlife Habitat Area - Core\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSForwardDiagonal\",\"color\":[169,0,230,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,0],\"width\":1}},\"value\":\"FF33515410\",\"label\":\"Specified Area - Species at Risk\",\"description\":\"\"}],\"fieldDelimiter\":\",\"},\"transparency\":40,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/b19ff409-ef71-4476-924e-b3bcf26a0127"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 432,
+            "title": "Provincial Parks - Tantalis - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 12000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ADMIN_AREA_SID",
+                    "title": "Administrative Area ID",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_NAME",
+                    "title": "Protected Lands Name",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_CODE",
+                    "title": "Protected Lands Code",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_DESIGNATION",
+                    "title": "Protected Lands Designation",
+                    "visible": true
+                },
+                {
+                    "name": "PARK_CLASS",
+                    "title": "Park Class",
+                    "visible": true
+                },
+                {
+                    "name": "SURVEYOR_GENERAL_PLAN_NO",
+                    "title": "Surveyor General Plan Numbers",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_PRIMARY",
+                    "title": "Orcs Primary",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_SECONDARY",
+                    "title": "Orcs Secondary",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "ObjectID",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area ",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "432",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":432,\"minScale\":12000000,\"maxScale\":0,\"definitionExpression\":\"PROTECTED_LANDS_CODE= 'PP'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[165,245,122,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[255,211,127,255],\"width\":0.4}},\"label\":\"Provincial Parks\",\"description\":\"\"},\"transparency\":30,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM <= 100000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[211,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":250000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM > 90000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[211,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":3000000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM > 10000000 AND FEATURE_AREA_SQM < 90000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[211,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":1000000,\"maxScale\":250001}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 436,
+            "title": "Conservancy Areas - Tantalis - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 12000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ADMIN_AREA_SID",
+                    "title": "Administrative Area ID",
+                    "visible": true
+                },
+                {
+                    "name": "CONSERVANCY_AREA_NAME",
+                    "title": "Conservancy Area Name",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_PRIMARY",
+                    "title": "Orcs Primary",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_SECONDARY",
+                    "title": "Orcs Secondary",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "ObjectID",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "436",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":436,\"minScale\":12000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_CONSERVANCY_AREAS_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[171,237,140,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[255,211,127,255],\"width\":0.4}},\"label\":\"Conservancy Areas\",\"description\":\"\"},\"transparency\":30,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[CONSERVANCY_AREA_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[211,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":750000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM >  4000000\",\"labelExpression\":\"[CONSERVANCY_AREA_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[211,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":2000000,\"maxScale\":750001}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/550b3133-2004-468f-ba1f-b95d0e281e78"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 435,
+            "title": "Recreation Areas - Tantalis - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 12000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ADMIN_AREA_SID",
+                    "title": "Administrative Area ID",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_NAME",
+                    "title": "Protected Lands Name",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_CODE",
+                    "title": "Protected Lands Code",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_DESIGNATION",
+                    "title": "Protected Lands Designation",
+                    "visible": true
+                },
+                {
+                    "name": "PARK_CLASS",
+                    "title": "Park Class",
+                    "visible": true
+                },
+                {
+                    "name": "SURVEYOR_GENERAL_PLAN_NO",
+                    "title": "Surveyor General Plan Number",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_PRIMARY",
+                    "title": "Orcs Primary",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_SECONDARY",
+                    "title": "Orcs Secondary",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "ObjectID",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "435",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":435,\"minScale\":12000000,\"maxScale\":0,\"definitionExpression\":\"PROTECTED_LANDS_CODE = 'RC'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[190,232,255,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[255,211,127,255],\"width\":0.4}},\"label\":\"Recreation Areas\",\"description\":\"\"},\"transparency\":30,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[230,247,255,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":5000000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 434,
+            "title": "Protected Areas - Tantalis - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 12000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ADMIN_AREA_SID",
+                    "title": "Administrative Area ID",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_NAME",
+                    "title": "Protected Lands Name",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_CODE",
+                    "title": "Protected Lands Code",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_DESIGNATION",
+                    "title": "Protected Lands Designation",
+                    "visible": true
+                },
+                {
+                    "name": "PARK_CLASS",
+                    "title": "Park Class",
+                    "visible": true
+                },
+                {
+                    "name": "SURVEYOR_GENERAL_PLAN_NO",
+                    "title": "Surveyor General Plan Number",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_PRIMARY",
+                    "title": "Orcs Primary",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_SECONDARY",
+                    "title": "Orcs Secondary",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "ObjectID",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "434",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":434,\"minScale\":12000000,\"maxScale\":0,\"definitionExpression\":\"PROTECTED_LANDS_CODE = 'PA'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[201,180,214,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[255,211,127,255],\"width\":0.4}},\"label\":\"Protected Areas\",\"description\":\"\"},\"transparency\":30,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM <= 4000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[213,212,214,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"normal\",\"decoration\":\"none\"}},\"minScale\":1250000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM > 4000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[213,212,214,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":3000000,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 433,
+            "title": "Ecological Reserves - Tantalis - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 12000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ADMIN_AREA_SID",
+                    "title": "Administrative Area ID",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_NAME",
+                    "title": "Protected Lands Name",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_CODE",
+                    "title": "Protected Lands Code",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_LANDS_DESIGNATION",
+                    "title": "Protected Lands Desigation",
+                    "visible": true
+                },
+                {
+                    "name": "PARK_CLASS",
+                    "title": "Park Class",
+                    "visible": true
+                },
+                {
+                    "name": "SURVEYOR_GENERAL_PLAN_NO",
+                    "title": "Surveyor General Plan Number",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_PRIMARY",
+                    "title": "Orcs Primary",
+                    "visible": true
+                },
+                {
+                    "name": "ORCS_SECONDARY",
+                    "title": "Orcs Secondary",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "ObjectID",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "433",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":433,\"minScale\":12000000,\"maxScale\":0,\"definitionExpression\":\"PROTECTED_LANDS_CODE = 'OI'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_PARK_ECORES_PA_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,211,127,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[255,211,127,255],\"width\":0.4}},\"label\":\"Ecological Reserves\",\"description\":\"\"},\"transparency\":30,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM <= 4000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,240,194,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":500000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":\"FEATURE_AREA_SQM > 4000000\",\"labelExpression\":\"[PROTECTED_LANDS_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"baseline\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[255,240,194,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":8,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":2000001,\"maxScale\":0}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/1130248f-f1a3-4956-8b2e-38d29d3e4af7"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 2712,
+            "title": "Old Growth Management Areas - Legal - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 750000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "LEGAL_OGMA_INTERNAL_ID",
+                    "title": "LEGAL_OGMA_INTERNAL_ID",
+                    "visible": false
+                },
+                {
+                    "name": "LEGAL_OGMA_PROVID",
+                    "title": "Legal OGMA ProvID",
+                    "visible": true
+                },
+                {
+                    "name": "OGMA_TYPE",
+                    "title": "OGMA Type",
+                    "visible": true
+                },
+                {
+                    "name": "OGMA_PRIMARY_REASON",
+                    "title": "OGMA Primary Reason",
+                    "visible": true
+                },
+                {
+                    "name": "LEGALIZATION_FRPA_DATE",
+                    "title": "Legalization FRPA Date",
+                    "visible": true
+                },
+                {
+                    "name": "LEGALIZATION_OGAA_DATE",
+                    "title": "Legalization OGAA Date",
+                    "visible": true
+                },
+                {
+                    "name": "LAST_AMENDMENT_DATE",
+                    "title": "Last Amendment Date",
+                    "visible": true
+                },
+                {
+                    "name": "ASSOCIATED_ACT_NAME",
+                    "title": "Associated Act Name",
+                    "visible": true
+                },
+                {
+                    "name": "GIS_CHANGE_DATE",
+                    "title": "GIS Change Date",
+                    "visible": true
+                },
+                {
+                    "name": "GIS_CHANGE_PERSON",
+                    "title": "GIS Change Person",
+                    "visible": true
+                },
+                {
+                    "name": "CHANGE_REASON",
+                    "title": "Change Reason",
+                    "visible": true
+                },
+                {
+                    "name": "INITIATOR_OF_CHANGE",
+                    "title": "Initiator of Change",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Area in Square Meters",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "2712",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":2712,\"minScale\":750000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_LAND_USE_PLANNING.RMP_OGMA_LEGAL_CURRENT_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[38,115,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[110,110,110,255],\"width\":0}},\"label\":\"Old Growth Management Areas - Legal\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/1b30f3bd-0ad0-4128-916b-66c6dd91dea4"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 364,
+            "title": "Natural Resource Districts - Outlined",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 35000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "DISTRICT_NAME",
+                    "title": "District Name",
+                    "visible": true
+                },
+                {
+                    "name": "ORG_UNIT",
+                    "title": "Org Unit",
+                    "visible": true
+                },
+                {
+                    "name": "ORG_UNIT_NAME",
+                    "title": "Org Unit",
+                    "visible": true
+                },
+                {
+                    "name": "REGION_ORG_UNIT",
+                    "title": "Region Org Unit",
+                    "visible": true
+                },
+                {
+                    "name": "REGION_ORG_UNIT_NAME",
+                    "title": "Region Org Unit Name",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_NAME",
+                    "title": "FEATURE_NAME",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Feature Length M",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "SHAPE.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "SHAPE.LEN",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "364",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":364,\"minScale\":35000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,0,0,0],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[152,230,0,255],\"width\":3}},\"label\":\"\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":[{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[DISTRICT_NAME]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[233,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":9,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":2000000,\"maxScale\":0},{\"labelPlacement\":\"esriServerPolygonPlacementAlwaysHorizontal\",\"where\":null,\"labelExpression\":\"[ORG_UNIT]\",\"useCodedValues\":true,\"symbol\":{\"type\":\"esriTS\",\"color\":[0,0,0,255],\"backgroundColor\":null,\"borderLineColor\":null,\"borderLineSize\":null,\"verticalAlignment\":\"bottom\",\"horizontalAlignment\":\"left\",\"rightToLeft\":false,\"angle\":0,\"xoffset\":0,\"yoffset\":0,\"kerning\":true,\"haloColor\":[233,255,190,255],\"haloSize\":1,\"font\":{\"family\":\"Arial\",\"size\":10,\"style\":\"normal\",\"weight\":\"bold\",\"decoration\":\"none\"}},\"minScale\":12000000,\"maxScale\":2000001}]}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/0bc73892-e41f-41d0-8d8e-828c16139337"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 3214,
+            "title": "Recreation Polygons - All - FTEN - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 1000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "RMF_SKEY",
+                    "title": "RMF SKey",
+                    "visible": true
+                },
+                {
+                    "name": "FOREST_FILE_ID",
+                    "title": "Forest File ID",
+                    "visible": true
+                },
+                {
+                    "name": "SECTION_ID",
+                    "title": "Section ID",
+                    "visible": true
+                },
+                {
+                    "name": "RECREATION_MAP_FEATURE_CODE",
+                    "title": "Recreation Map Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "PROJECT_TYPE",
+                    "title": "Project Type",
+                    "visible": true
+                },
+                {
+                    "name": "RETIREMENT_DATE",
+                    "title": "Retirement Date",
+                    "visible": true
+                },
+                {
+                    "name": "AMENDMENT_ID",
+                    "title": "Amendment ID",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_LABEL",
+                    "title": "Map Label",
+                    "visible": true
+                },
+                {
+                    "name": "PROJECT_NAME",
+                    "title": "Project Name",
+                    "visible": true
+                },
+                {
+                    "name": "RECREATION_FEATURE_CODE",
+                    "title": "Recreation Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "RESOURCE_FEATURE_IND",
+                    "title": "Resource Feature Indicator",
+                    "visible": true
+                },
+                {
+                    "name": "ARCH_IMPACT_ASSESS_IND",
+                    "title": "Arch Impact Assess Indicator",
+                    "visible": true
+                },
+                {
+                    "name": "SITE_LOCATION",
+                    "title": "Site Location",
+                    "visible": true
+                },
+                {
+                    "name": "PROJECT_ESTABLISHED_DATE",
+                    "title": "Project Established Date",
+                    "visible": true
+                },
+                {
+                    "name": "RECREATION_VIEW_IND",
+                    "title": "Recreation Website Indicator",
+                    "visible": true
+                },
+                {
+                    "name": "RECREATION_DISTRICT_CODE",
+                    "title": "Recreation District Code",
+                    "visible": true
+                },
+                {
+                    "name": "DEFINED_CAMPSITES",
+                    "title": "Defined Campsites",
+                    "visible": true
+                },
+                {
+                    "name": "LIFE_CYCLE_STATUS_CODE",
+                    "title": "Life Cycle Status Code",
+                    "visible": true
+                },
+                {
+                    "name": "FILE_STATUS_CODE",
+                    "title": "File Status Code",
+                    "visible": true
+                },
+                {
+                    "name": "GEOGRAPHIC_DISTRICT_CODE",
+                    "title": "Geographic District Code",
+                    "visible": true
+                },
+                {
+                    "name": "GEOGRAPHIC_DISTRICT_NAME",
+                    "title": "Geographic District Name",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CLASS_SKEY",
+                    "title": "Feature Class SKey",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA",
+                    "title": "Feature Area",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_PERIMETER",
+                    "title": "Feature Perimeter",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "Geometry",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "Object ID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "Geometry Area",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "Geometry Length",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "3214",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":3214,\"minScale\":1000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_FOREST_TENURE.FTEN_RECREATION_POLY_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[102,204,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[0,0,0,0],\"width\":0}},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/263338a7-93ee-49c1-83e8-13f0bde70833"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 2178,
+            "title": "Lease Tenures - Tantalis - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 1000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "INTRID_SID",
+                    "title": "Internal Interest Identifier",
+                    "visible": false
+                },
+                {
+                    "name": "DISPOSITION_TRANSACTION_SID",
+                    "title": "Disposition Transaction SID",
+                    "visible": false
+                },
+                {
+                    "name": "TENURE_STAGE",
+                    "title": "Tenure Stage",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_STATUS",
+                    "title": "Tenure Status",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_TYPE",
+                    "title": "Tenure Type",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_SUBTYPE",
+                    "title": "Tenure Subtype",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_PURPOSE",
+                    "title": "Tenure Purpose",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_SUBPURPOSE",
+                    "title": "Tenure Subpurpose",
+                    "visible": true
+                },
+                {
+                    "name": "CROWN_LANDS_FILE",
+                    "title": "Crown Lands File Number",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_DOCUMENT",
+                    "title": "Tenure Document Number",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_EXPIRY",
+                    "title": "Tenure Expiry Date",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_LOCATION",
+                    "title": "Tenure Location",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_LEGAL_DESCRIPTION",
+                    "title": "Tenure Legal Description",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_AREA_DERIVATION",
+                    "title": "Tenure Area Derivation",
+                    "visible": true
+                },
+                {
+                    "name": "TENURE_AREA_IN_HECTARES",
+                    "title": "Tenure Area (Hectares)",
+                    "visible": true
+                },
+                {
+                    "name": "RESPONSIBLE_BUSINESS_UNIT",
+                    "title": "Responsible Business Unit",
+                    "visible": true
+                },
+                {
+                    "name": "CODE_CHR_STAGE",
+                    "title": "Tenure Stage Code",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "Shape",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "Internal Object Identifier",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "Shape Area",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "Shape Length",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "2178",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":2178,\"minScale\":1000000,\"maxScale\":0,\"definitionExpression\":\"TENURE_STAGE = 'TENURE'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_TANTALIS.TA_CROWN_LEASES_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[0,76,115,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[0,0,0,255],\"width\":1}},\"label\":\"Lease Tenures\",\"description\":\"\"},\"transparency\":30,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/9d4acb8e-535f-4845-8876-ec79bee1844f"
+        }
+    ],
+    "tools": [
+        {
+            "title": "Geomark",
+            "geomarkService": {
+                "url": "https://apps.gov.bc.ca/pub/geomark"
+            },
+            "type": "geomark",
+            "enabled": true
+        },
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "type": "list-menu",
+            "enabled": true,
+            "title": "Firewood Cutting Prohibited Areas"
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "position": "list-menu",
+            "icon": "help",
+            "title": "About",
+            "content": "<p>The coloured areas on this map shows areas of crown land where the cutting of firewood is prohibited province wide&nbsp;</p><p>Click on the data layer list option in the menu to show the legend that indicates the reason for the prohibition for a specific area.&nbsp;</p><p>Visit the Firewood Permit section of your local Natural Resource (Forest) District website, or apply in person for a complete list of district specific regulations for the collection of firewood for personal use.&nbsp;&nbsp;</p>",
+            "type": "about",
+            "enabled": true
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "layers",
+            "title": "Layers",
+            "command": {
+                "allVisibility": true,
+                "filter": true,
+                "legend": true
+            },
+            "glyph": {
+                "visible": "visibility",
+                "hidden": "visibility_off"
+            },
+            "type": "layers",
+            "enabled": true,
+            "display": [
+                {
+                    "id": 5381
+                },
+                {
+                    "id": 2889
+                },
+                {
+                    "id": 6215
+                },
+                {
+                    "id": 2219
+                },
+                {
+                    "id": 4734
+                },
+                {
+                    "id": 749
+                },
+                {
+                    "id": 432
+                },
+                {
+                    "id": 436
+                },
+                {
+                    "id": 435
+                },
+                {
+                    "id": 434
+                },
+                {
+                    "id": 433
+                },
+                {
+                    "id": 2712
+                },
+                {
+                    "id": 364,
+                    "isVisible": false
+                },
+                {
+                    "id": 3214
+                },
+                {
+                    "id": 2178
+                }
+            ]
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false
+        },
+        {
+            "type": "identify",
+            "enabled": false,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": false
+        },
+        {
+            "type": "measure",
+            "enabled": false
+        },
+        {
+            "type": "markup",
+            "enabled": false
+        },
+        {
+            "type": "scale",
+            "enabled": false
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "type": "directions",
+            "enabled": false
+        },
+        {
+            "type": "location",
+            "enabled": false
+        },
+        {
+            "type": "select",
+            "enabled": false
+        },
+        {
+            "type": "legend",
+            "enabled": false
+        }
+    ],
+    "version": "1.0.6",
+    "createdBy": "Map Team",
+    "createdDate": "2021-10-27T18:21:40.749Z"
+}
