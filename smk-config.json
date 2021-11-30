@@ -1705,7 +1705,7 @@
             "position": "list-menu",
             "icon": "help",
             "title": "About",
-            "content": "<p>The coloured areas on this map show areas of Crown land where the cutting of firewood is prohibited.</p><p>Click on the layers option in the menu to see the legend that indicates the reason for the prohibition for a specific area. Click on each layer to see the description.</p><p>Visit the <a href=\"https://www2.gov.bc.ca/gov/content?id=2E7E5F5176074ACEB5C57FDF746F8ABD\" targer=\"_blank\">Firewood Permits website</a> to apply for a permit and to find out district specific information for firewood cutting for personal use.</p><p>T</p>",
+            "content": "<p>The coloured areas on this map show areas of Crown land where the cutting of firewood is prohibited.</p><p>Click on the layers option in the menu to see the legend that indicates the reason for the prohibition for a specific area. Click on each layer to see the description.</p><p>Visit the <a href=\"https://www2.gov.bc.ca/gov/content?id=2E7E5F5176074ACEB5C57FDF746F8ABD\" targer=\"_blank\">Firewood Permits website</a> to apply for a permit and to find out district specific information for firewood cutting for personal use.</p><p>This map is not intended for commercial firewood cutting.</p>",
             "type": "about",
             "enabled": true
         },
