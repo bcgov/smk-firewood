@@ -912,7 +912,8 @@
             "queries": null,
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_FOREST_TENURE.FTEN_MANAGED_LICENCE_POLY_SVW",
-            "styleName": "2889"
+            "styleName": "2889",
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/c3e96239-cdc9-4328-ac19-58fba1623ef8"
         },
         {
             "type": "wms",
@@ -1037,120 +1038,8 @@
             "queries": null,
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_LEGAL_ADMIN_BOUNDARIES.WCL_CONSERVATION_LANDS_SP",
-            "styleName": "6215"
-        },
-        {
-            "type": "wms",
-            "id": "pub-whse-wildlife-management-wcp-wildlife-habitat-area-poly--749",
-            "title": "Wildlife Habitat Areas - Approved ( 749 )",
-            "isVisible": true,
-            "isQueryable": true,
-            "opacity": 0.85,
-            "minScale": null,
-            "maxScale": null,
-            "titleAttribute": null,
-            "attributes": [
-                {
-                    "id": "habitat-area-id",
-                    "name": "HABITAT_AREA_ID",
-                    "title": "HABITAT AREA ID",
-                    "visible": true
-                },
-                {
-                    "id": "tag",
-                    "name": "TAG",
-                    "title": "TAG",
-                    "visible": true
-                },
-                {
-                    "id": "approval-date",
-                    "name": "APPROVAL_DATE",
-                    "title": "APPROVAL DATE",
-                    "visible": true
-                },
-                {
-                    "id": "notice-date",
-                    "name": "NOTICE_DATE",
-                    "title": "NOTICE DATE",
-                    "visible": true
-                },
-                {
-                    "id": "feature-notes",
-                    "name": "FEATURE_NOTES",
-                    "title": "FEATURE NOTES",
-                    "visible": true
-                },
-                {
-                    "id": "feature-code",
-                    "name": "FEATURE_CODE",
-                    "title": "FEATURE CODE",
-                    "visible": true
-                },
-                {
-                    "id": "org-organization-id",
-                    "name": "ORG_ORGANIZATION_ID",
-                    "title": "ORG ORGANIZATION ID",
-                    "visible": true
-                },
-                {
-                    "id": "common-species-name",
-                    "name": "COMMON_SPECIES_NAME",
-                    "title": "COMMON SPECIES NAME",
-                    "visible": true
-                },
-                {
-                    "id": "legislation-act-name",
-                    "name": "LEGISLATION_ACT_NAME",
-                    "title": "LEGISLATION ACT NAME",
-                    "visible": true
-                },
-                {
-                    "id": "timber-harvest-code",
-                    "name": "TIMBER_HARVEST_CODE",
-                    "title": "TIMBER HARVEST CODE",
-                    "visible": true
-                },
-                {
-                    "id": "hectares",
-                    "name": "HECTARES",
-                    "title": "HECTARES",
-                    "visible": true
-                },
-                {
-                    "id": "geometry",
-                    "name": "GEOMETRY",
-                    "title": "GEOMETRY",
-                    "visible": true
-                },
-                {
-                    "id": "objectid",
-                    "name": "OBJECTID",
-                    "title": "OBJECTID",
-                    "visible": true
-                },
-                {
-                    "id": "se-anno-cad-data",
-                    "name": "SE_ANNO_CAD_DATA",
-                    "title": "SE ANNO CAD DATA",
-                    "visible": true
-                },
-                {
-                    "id": "feature-area-sqm",
-                    "name": "FEATURE_AREA_SQM",
-                    "title": "FEATURE AREA SQM",
-                    "visible": true
-                },
-                {
-                    "id": "feature-length-m",
-                    "name": "FEATURE_LENGTH_M",
-                    "title": "FEATURE LENGTH M",
-                    "visible": true
-                }
-            ],
-            "queries": null,
-            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
-            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.WCP_WILDLIFE_HABITAT_AREA_POLY",
-            "styleName": "749"
+            "styleName": "6215",
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/68327529-c0d5-4fcb-b84e-f8d98a7f8612"
         },
         {
             "type": "wms",
@@ -1287,7 +1176,8 @@
             "queries": null,
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_LAND_USE_PLANNING.RMP_OGMA_LEGAL_CURRENT_SVW",
-            "styleName": "2712"
+            "styleName": "2712",
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/1b30f3bd-0ad0-4128-916b-66c6dd91dea4"
         },
         {
             "type": "wms",
@@ -1376,7 +1266,8 @@
             "queries": null,
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_ADMIN_BOUNDARIES.ADM_NR_DISTRICTS_SPG",
-            "styleName": "364"
+            "styleName": "364",
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/0bc73892-e41f-41d0-8d8e-828c16139337"
         },
         {
             "type": "wms",
@@ -1567,7 +1458,8 @@
             "queries": null,
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_FOREST_TENURE.FTEN_RECREATION_POLY_SVW",
-            "styleName": "3214"
+            "styleName": "3214",
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/263338a7-93ee-49c1-83e8-13f0bde70833"
         },
         {
             "type": "wms",
@@ -1722,7 +1614,119 @@
             "queries": null,
             "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
             "layerName": "pub:WHSE_TANTALIS.TA_CROWN_LEASES_SVW",
-            "styleName": "2178"
+            "styleName": "2178",
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/9d4acb8e-535f-4845-8876-ec79bee1844f"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 749,
+            "title": "Wildlife Habitat Areas - Approved - Colour Themed",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.9,
+            "minScale": 1000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "HABITAT_AREA_ID",
+                    "title": "HABITAT_AREA_ID",
+                    "visible": false
+                },
+                {
+                    "name": "TAG",
+                    "title": "WHA Number",
+                    "visible": true
+                },
+                {
+                    "name": "APPROVAL_DATE",
+                    "title": "Approval Date",
+                    "visible": true
+                },
+                {
+                    "name": "NOTICE_DATE",
+                    "title": "Date of Notice",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_NOTES",
+                    "title": "Feature Notes",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "ORG_ORGANIZATION_ID",
+                    "title": "MOE Region",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "COMMON_SPECIES_NAME",
+                    "title": "Common Species Name",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "Area m2",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "LEGISLATION_ACT_NAME",
+                    "title": "Legislation Act Name",
+                    "visible": true
+                },
+                {
+                    "name": "TIMBER_HARVEST_CODE",
+                    "title": "Timber Harvest Code",
+                    "visible": true
+                },
+                {
+                    "name": "HECTARES",
+                    "title": "HECTARES",
+                    "visible": false
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE_AREA_SQM",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "749",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":749,\"minScale\":1000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_WILDLIFE_MANAGEMENT.WCP_WILDLIFE_HABITAT_AREA_POLY\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"FEATURE_CODE\",\"field2\":null,\"field3\":null,\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSHorizontal\",\"color\":[255,170,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[255,170,0,255],\"width\":1}},\"value\":\"FF33515110\",\"label\":\"Wildlife Habitat Area - Buffer\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSBackwardDiagonal\",\"color\":[230,0,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[230,0,0,255],\"width\":1}},\"value\":\"FF33515120\",\"label\":\"Wildlife Habitat Area - Core\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSForwardDiagonal\",\"color\":[169,0,230,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[169,0,230,255],\"width\":1}},\"value\":\"FF33515410\",\"label\":\"Specified Area - Species at Risk\",\"description\":\"\"}],\"fieldDelimiter\":\",\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/b19ff409-ef71-4476-924e-b3bcf26a0127"
         }
     ],
     "tools": [
@@ -1804,7 +1808,7 @@
                     "isVisible": true
                 },
                 {
-                    "id": "pub-whse-wildlife-management-wcp-wildlife-habitat-area-poly--749",
+                    "id": 749,
                     "isVisible": true,
                     "title": "Wildlife Habitat Areas - Approved"
                 },
@@ -1856,8 +1860,25 @@
             ]
         },
         {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "map",
+            "title": "Base Maps",
+            "mapStyle": {
+                "width": "110px",
+                "height": "110px"
+            },
             "type": "baseMaps",
-            "enabled": false
+            "enabled": true,
+            "choices": [
+                "Topographic",
+                "Imagery",
+                "Streets",
+                "NationalGeographic"
+            ]
         },
         {
             "type": "identify",
