@@ -1,2 +1,15 @@
 .temp
 .git
+node_modules
+debug.log
+caddy
+roles.txt
+.env*
+gwa-cli-linux.zip
+gwa-cli-linux
+junk
+gwa/gwa-config*
+gwa_v*_linux_x64.zip
+junk*
+oc
+comp-actions/smk-deploy/test.sh
