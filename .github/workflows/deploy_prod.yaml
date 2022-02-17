@@ -8,10 +8,8 @@
 name: deploy prod
 on:
   pull_request:
-    branches: 
-      - master
-    types: 
-      - closed
+    branches: ['master', 'main']
+    types: ['closed']
       
 # debugging
 # -------------
