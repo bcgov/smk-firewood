@@ -1,0 +1,90 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+labels:
+  template: smk-build-config-template
+metadata:
+  name: smk-build-config-template
+
+
+parameters:
+  - name: "APP_NAME"
+    description: "name of app"
+    value: "smk-app"
+  - name: "ENV"
+    description: "environment"
+    value: dev
+  - name: "GIT_URL"
+    description: "github repo rul"
+    value: https://github.com/bcgov/smk.git
+  - name: "GIT_BRANCH"
+    description: "github repo branch"
+    value: dev
+
+objects:
+
+  - kind: BuildConfig
+    apiVersion: build.openshift.io/v1
+    metadata:
+      name: ${APP_NAME}-${ENV}-bc
+      labels:
+        app: ${APP_NAME}-${ENV}
+    spec:
+      nodeSelector: null
+      output:
+        to:
+          kind: ImageStreamTag
+          name: '${APP_NAME}-${ENV}:latest'
+      resources: {}
+      successfulBuildsHistoryLimit: 5
+      failedBuildsHistoryLimit: 5
+      strategy:
+        type: Docker
+        dockerStrategy:
+          env:
+            - name: BRANCH
+              value: ${GIT_BRANCH}
+            - name: URL
+              value: ${GIT_URL}
+            - name: NAME
+              value: ${APP_NAME}
+          pullSecret:
+            name: artifactory-creds
+      postCommit: {}
+      source:
+        type: Dockerfile
+        dockerfile: >-
+          FROM docker-remote.artifacts.developer.gov.bc.ca/node:alpine3.12
+
+
+          RUN apk update \
+              && apk --no-cache add git openssh-client \
+              && apk --no-cache add --virtual devs tar curl
+
+          WORKDIR /app
+
+
+          RUN git clone -b main https://github.com/bcgov/smk-firewood.git /app/smk-firewood
+
+
+          RUN adduser -S app
+
+
+          RUN chown -R app:0 /app && chmod -R 770 /app
+
+          WORKDIR /app/smk-firewood
+
+
+          RUN npm install
+
+
+          RUN apk del --purge devs  
+
+
+          USER app
+      triggers:
+        - type: Generic
+          generic:
+            secretReference:
+              name: github-${APP_NAME}-${ENV}-webhook-key
+    runPolicy: Serial
+
