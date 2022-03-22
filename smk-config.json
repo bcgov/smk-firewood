@@ -4,14 +4,14 @@
         "type": "leaflet",
         "location": {
             "center": [
-                -124.74975585937501,
-                51.883272964437474
+                -125.98022460937501,
+                54.12382170046237
             ],
             "extent": [
-                -129.81445312500003,
-                47.14489748555398,
-                -119.68505859375001,
-                56.17002298293205
+                -134.71435546875003,
+                49.396675075193976,
+                -117.24609375000001,
+                58.367156332478885
             ],
             "zoom": 6
         },
@@ -1760,7 +1760,7 @@
             "position": "list-menu",
             "icon": "help",
             "title": "About",
-            "content": "<p>The coloured areas on this map show areas of Crown land where the cutting of firewood is prohibited.</p><p>Click on the layers option in the menu to see the legend that indicates the reason for the prohibition for a specific area. Click on each layer to see the description.</p><p>Visit the <a href=\"https://www2.gov.bc.ca/gov/content?id=2E7E5F5176074ACEB5C57FDF746F8ABD\" target=\"_blank\">Firewood Permits website</a> to apply for a permit and to find out district specific information for firewood cutting for personal use.</p><p>This map is not intended for commercial firewood cutting.</p>",
+            "content": "<p>The coloured areas on this map show areas of Crown land where the cutting of firewood is prohibited.</p><p>Click on the layers option in the menu to see the legend that indicates the reason for the prohibition for a specific area. Click on each layer to see the description.</p><p>Visit the <a href=\"https://www2.gov.bc.ca/gov/content?id=2E7E5F5176074ACEB5C57FDF746F8ABD\" target=\"_blank\">Firewood Permits website</a> to apply for a permit and to find out district specific information for firewood cutting for personal use.</p><p>This map is not intended for commercial firewood cutting.</p><p>Please ensure you are zoomed into your area of interest as some of layers are not visible when zoomed out.</p>",
             "type": "about",
             "enabled": true
         },
