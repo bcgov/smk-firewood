@@ -4,7 +4,7 @@
     "description": "My Simple Map Kit application.",
     "author": "Map Team",
     "dependencies": {
-        "@bcgov/smk": "1.0.9",
+        "@bcgov/smk": "1.1.0",
         "http-server": "^0.12.3"
     },
     "scripts": {
