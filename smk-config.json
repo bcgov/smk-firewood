@@ -1877,8 +1877,7 @@
             "choices": [
                 "Topographic",
                 "Imagery",
-                "Streets",
-                "NationalGeographic"
+                "Streets"
             ]
         },
         {
