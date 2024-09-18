@@ -137,158 +137,6 @@
         },
         {
             "type": "esri-dynamic",
-            "id": 2219,
-            "title": "Integrated Cadastral Fabric - Private Ownership",
-            "isVisible": true,
-            "isQueryable": true,
-            "opacity": 0.85,
-            "minScale": 40000,
-            "maxScale": 0,
-            "titleAttribute": null,
-            "attributes": [
-                {
-                    "name": "OBJECTID",
-                    "title": "OBJECTID",
-                    "visible": true
-                },
-                {
-                    "name": "PIN_SID",
-                    "title": "PIN - Crown Parcel ID",
-                    "visible": true
-                },
-                {
-                    "name": "PID",
-                    "title": "PID - LTSA Parcel ID",
-                    "visible": true
-                },
-                {
-                    "name": "OWNERSHIP_CLASS",
-                    "title": "Ownership Class",
-                    "visible": true
-                },
-                {
-                    "name": "FEATURE_CODE",
-                    "title": "Feature Code",
-                    "visible": true
-                },
-                {
-                    "name": "GEOMETRY",
-                    "title": "GEOMETRY",
-                    "visible": true
-                },
-                {
-                    "name": "GEOMETRY.AREA",
-                    "title": "GEOMETRY.AREA",
-                    "visible": false
-                },
-                {
-                    "name": "GEOMETRY.LEN",
-                    "title": "GEOMETRY.LEN",
-                    "visible": false
-                },
-                {
-                    "name": "SE_ANNO_CAD_DATA",
-                    "title": "SE_ANNO_CAD_DATA",
-                    "visible": false
-                },
-                {
-                    "name": "FEATURE_AREA_SQM",
-                    "title": "FEATURE_AREA_SQM",
-                    "visible": true
-                },
-                {
-                    "name": "FEATURE_LENGTH_M",
-                    "title": "FEATURE_LENGTH_M",
-                    "visible": true
-                }
-            ],
-            "queries": null,
-            "mpcmId": "2219",
-            "mpcmWorkspace": "MPCM_ALL_PUB",
-            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
-            "dynamicLayers": [
-                "{\"id\":2219,\"minScale\":20001,\"maxScale\":0,\"definitionExpression\":\"OWNERSHIP_CLASS = 'PRIVATE'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"OWNERSHIP_CLASS\",\"field2\":null,\"field3\":null,\"defaultSymbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,255,191,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[178,178,178,255],\"width\":0.4}},\"defaultLabel\":\"Private Land (Surface)\",\"uniqueValueInfos\":[],\"fieldDelimiter\":\",\"},\"transparency\":0,\"labelingInfo\":null}}"
-            ],
-            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21"
-        },
-        {
-            "type": "esri-dynamic",
-            "id": 4734,
-            "title": "Integrated Cadastral Fabric - Federal Ownership",
-            "isVisible": true,
-            "isQueryable": true,
-            "opacity": 0.85,
-            "minScale": 40000,
-            "maxScale": 0,
-            "titleAttribute": null,
-            "attributes": [
-                {
-                    "name": "OBJECTID",
-                    "title": "OBJECTID",
-                    "visible": true
-                },
-                {
-                    "name": "PIN_SID",
-                    "title": "PIN - Crown Parcel ID",
-                    "visible": true
-                },
-                {
-                    "name": "PID",
-                    "title": "PID - LTSA Parcel ID",
-                    "visible": true
-                },
-                {
-                    "name": "OWNERSHIP_CLASS",
-                    "title": "Ownership Class",
-                    "visible": true
-                },
-                {
-                    "name": "FEATURE_CODE",
-                    "title": "Feature Code",
-                    "visible": true
-                },
-                {
-                    "name": "GEOMETRY",
-                    "title": "GEOMETRY",
-                    "visible": true
-                },
-                {
-                    "name": "GEOMETRY.AREA",
-                    "title": "GEOMETRY.AREA",
-                    "visible": false
-                },
-                {
-                    "name": "GEOMETRY.LEN",
-                    "title": "GEOMETRY.LEN",
-                    "visible": false
-                },
-                {
-                    "name": "SE_ANNO_CAD_DATA",
-                    "title": "SE_ANNO_CAD_DATA",
-                    "visible": false
-                },
-                {
-                    "name": "FEATURE_AREA_SQM",
-                    "title": "FEATURE_AREA_SQM",
-                    "visible": true
-                },
-                {
-                    "name": "FEATURE_LENGTH_M",
-                    "title": "FEATURE_LENGTH_M",
-                    "visible": true
-                }
-            ],
-            "queries": null,
-            "mpcmId": "4734",
-            "mpcmWorkspace": "MPCM_ALL_PUB",
-            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
-            "dynamicLayers": [
-                "{\"id\":4734,\"minScale\":20000,\"maxScale\":0,\"definitionExpression\":\"OWNERSHIP_CLASS = 'CROWN FEDERAL'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_CADASTRE.CBM_CADASTRAL_FABRIC_PUB_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,171,231,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[178,178,178,255],\"width\":0.4}},\"label\":\"Surveyed Federal Land (Surface)\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
-            ],
-            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/7eb82072-8c74-4fce-9934-349b545fdc21"
-        },
-        {
-            "type": "esri-dynamic",
             "id": 432,
             "title": "Provincial Parks - Tantalis - Colour Filled",
             "isVisible": true,
@@ -1728,6 +1576,258 @@
                 "{\"id\":749,\"minScale\":1000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_WILDLIFE_MANAGEMENT.WCP_WILDLIFE_HABITAT_AREA_POLY\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"uniqueValue\",\"field1\":\"FEATURE_CODE\",\"field2\":null,\"field3\":null,\"defaultSymbol\":null,\"defaultLabel\":null,\"uniqueValueInfos\":[{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSHorizontal\",\"color\":[255,170,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[255,170,0,255],\"width\":1}},\"value\":\"FF33515110\",\"label\":\"Wildlife Habitat Area - Buffer\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSBackwardDiagonal\",\"color\":[230,0,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[230,0,0,255],\"width\":1}},\"value\":\"FF33515120\",\"label\":\"Wildlife Habitat Area - Core\",\"description\":\"\"},{\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSForwardDiagonal\",\"color\":[169,0,230,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[169,0,230,255],\"width\":1}},\"value\":\"FF33515410\",\"label\":\"Specified Area - Species at Risk\",\"description\":\"\"}],\"fieldDelimiter\":\",\"},\"transparency\":0,\"labelingInfo\":null}}"
             ],
             "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/b19ff409-ef71-4476-924e-b3bcf26a0127"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 5901,
+            "title": "PMBC Parcel Cadastre - Federal",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 40000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "PARCEL_FABRIC_POLY_ID",
+                    "title": "Parcel Fabric Poly ID",
+                    "visible": false
+                },
+                {
+                    "name": "PARCEL_NAME",
+                    "title": "Parcel Name",
+                    "visible": true
+                },
+                {
+                    "name": "PLAN_NUMBER",
+                    "title": "Plan Number",
+                    "visible": true
+                },
+                {
+                    "name": "PIN",
+                    "title": "Parcel Identification Number (PIN)",
+                    "visible": true
+                },
+                {
+                    "name": "PID",
+                    "title": "Parcel Identifier (PID - Text)",
+                    "visible": true
+                },
+                {
+                    "name": "PID_NUMBER",
+                    "title": "Parcel Identifier (PID - Number)",
+                    "visible": true
+                },
+                {
+                    "name": "PARCEL_STATUS",
+                    "title": "Parcel Status",
+                    "visible": true
+                },
+                {
+                    "name": "PARCEL_CLASS",
+                    "title": "Parcel Class",
+                    "visible": true
+                },
+                {
+                    "name": "OWNER_TYPE",
+                    "title": "Owner Type",
+                    "visible": true
+                },
+                {
+                    "name": "PARCEL_START_DATE",
+                    "title": "Parcel Start Date",
+                    "visible": false
+                },
+                {
+                    "name": "MUNICIPALITY",
+                    "title": "Municipality",
+                    "visible": true
+                },
+                {
+                    "name": "REGIONAL_DISTRICT",
+                    "title": "Regional District",
+                    "visible": true
+                },
+                {
+                    "name": "WHEN_UPDATED",
+                    "title": "Last Modified Date",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "SHAPE.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "SHAPE.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "PID_FORMATTED",
+                    "title": "PID_FORMATTED",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "5901",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":5901,\"minScale\":40000,\"maxScale\":0,\"definitionExpression\":\"OWNER_TYPE = 'Federal'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[128,177,211,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[102,153,205,255],\"width\":0.4}},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/4cf233c2-f020-4f7a-9b87-1923252fbc24"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 5903,
+            "title": "PMBC Parcel Cadastre - Private",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 40000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "PARCEL_FABRIC_POLY_ID",
+                    "title": "Parcel Fabric Poly ID",
+                    "visible": false
+                },
+                {
+                    "name": "PARCEL_NAME",
+                    "title": "Parcel Name",
+                    "visible": true
+                },
+                {
+                    "name": "PLAN_NUMBER",
+                    "title": "Plan Number",
+                    "visible": true
+                },
+                {
+                    "name": "PIN",
+                    "title": "Parcel Identification Number (PIN)",
+                    "visible": true
+                },
+                {
+                    "name": "PID",
+                    "title": "Parcel Identifier (PID - Text)",
+                    "visible": true
+                },
+                {
+                    "name": "PID_NUMBER",
+                    "title": "Parcel Identifier (PID - Number)",
+                    "visible": true
+                },
+                {
+                    "name": "PARCEL_STATUS",
+                    "title": "Parcel Status",
+                    "visible": true
+                },
+                {
+                    "name": "PARCEL_CLASS",
+                    "title": "Parcel Class",
+                    "visible": true
+                },
+                {
+                    "name": "OWNER_TYPE",
+                    "title": "Owner Type",
+                    "visible": true
+                },
+                {
+                    "name": "PARCEL_START_DATE",
+                    "title": "Parcel Start Date",
+                    "visible": false
+                },
+                {
+                    "name": "MUNICIPALITY",
+                    "title": "Municipality",
+                    "visible": true
+                },
+                {
+                    "name": "REGIONAL_DISTRICT",
+                    "title": "Regional District",
+                    "visible": true
+                },
+                {
+                    "name": "WHEN_UPDATED",
+                    "title": "Last Modified Date",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Feature Area Sqm",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE_LENGTH_M",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.AREA",
+                    "title": "SHAPE.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "SHAPE.LEN",
+                    "title": "SHAPE.LEN",
+                    "visible": false
+                },
+                {
+                    "name": "PID_FORMATTED",
+                    "title": "PID_FORMATTED",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "mpcmId": "5903",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":5903,\"minScale\":40000,\"maxScale\":0,\"definitionExpression\":\"OWNER_TYPE = 'Private'\",\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_CADASTRE.PMBC_PARCEL_FABRIC_POLY_SVW\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,234,118,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSSolid\",\"color\":[255,170,0,255],\"width\":0.4}},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/4cf233c2-f020-4f7a-9b87-1923252fbc24"
         }
     ],
     "tools": [
@@ -1801,11 +1901,11 @@
                     "title": "Conservation Lands"
                 },
                 {
-                    "id": 2219,
+                    "id": 5903,
                     "isVisible": true
                 },
                 {
-                    "id": 4734,
+                    "id": 5901,
                     "isVisible": true
                 },
                 {
