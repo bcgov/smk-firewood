@@ -45,7 +45,7 @@ jobs:
 
     - name: deploying prod
       #uses: ./comp-actions/smk-deploy
-      uses: bcgov/smk-actions/smk-deploy@b13e49a
+      uses: bcgov/smk-actions/smk-deploy@b13e49a4e2d0cd4ec316831a6fff9d62db935226
       id: deploySMKContainer
       with:
         OPENSHIFT_SERVER_URL: ${{ secrets.OPENSHIFT_SERVER_URL }}
