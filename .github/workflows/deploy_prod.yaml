@@ -44,7 +44,6 @@ jobs:
         fetch-depth: 0
 
     - name: deploying prod
-      #uses: ./comp-actions/smk-deploy
       uses: bcgov/smk-actions/smk-deploy@main
       id: deploySMKContainer
       with:
@@ -53,6 +52,6 @@ jobs:
         OPENSHIFT_TOKEN_PROD: ${{ secrets.OPENSHIFT_TOKEN_PROD }}
         GHCR_USER: ${{ secrets.GHCR_USER }}
         GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
-        DOCKER_REGISTRY: 'docker.pkg.github.com'
+        DOCKER_REGISTRY: 'ghcr.io'
         PR_REVIEWERS: '["michaelpnelson"]'
         PR_MENTIONS: '["michaelpnelson", "GuyTheFlower", "franTarkenton"]'
