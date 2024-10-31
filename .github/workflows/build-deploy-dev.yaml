@@ -47,7 +47,6 @@ jobs:
         fetch-depth: 0
 
     - name: Building image
-      #uses: ./comp-actions/smk-build
       uses: bcgov/smk-actions/smk-build@main
       id: buildSMKImage
       with:
@@ -58,7 +57,6 @@ jobs:
         DOCKER_REGISTRY: 'ghcr.io'
 
     - name: deploying dev
-      #uses: ./comp-actions/smk-deploy
       uses: bcgov/smk-actions/smk-deploy@main
       id: deploySMKContainer
       with:
@@ -68,4 +66,4 @@ jobs:
         GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
         DOCKER_REGISTRY: 'ghcr.io'
         PR_REVIEWERS: '["michaelpnelson"]'
-        PR_MENTIONS: '["michaelpnelson", "GuyTheFlower", "franTarkenton"]'
+        PR_MENTIONS: '["michaelpnelson"]'
