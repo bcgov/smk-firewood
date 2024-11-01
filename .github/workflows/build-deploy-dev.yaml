@@ -56,6 +56,13 @@ jobs:
         GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
         DOCKER_REGISTRY: 'ghcr.io'
 
+    - name: Deleting older images
+      uses: actions/delete-package-versions@v5
+      with:
+        package-name: 'smk-firewood/smk-firewood'
+        package-type: 'container'
+        min-versions-to-keep: 40
+
     - name: deploying dev
       uses: bcgov/smk-actions/smk-deploy@main
       id: deploySMKContainer
