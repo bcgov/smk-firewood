@@ -59,8 +59,9 @@ jobs:
     - name: Deleting older images
       uses: actions/delete-package-versions@v5
       with:
-        package-name: 'bcgov/smk-firewood/smk-firewood'
+        package-name: 'smk-firewood%2Fsmk-firewood'
         package-type: 'container'
+        token: ${{ secrets.GHCR_TOKEN }}
         min-versions-to-keep: 40
 
     - name: deploying dev
