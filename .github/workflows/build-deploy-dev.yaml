@@ -43,7 +43,6 @@ jobs:
     - name: Deleting older images
       uses: actions/delete-package-versions@v5
       with:
-        owner: 'github'
         package-name: 'smk-firewood/smk-firewood'
         package-type: 'container'
         token: ${{ secrets.GHCR_TOKEN }}
