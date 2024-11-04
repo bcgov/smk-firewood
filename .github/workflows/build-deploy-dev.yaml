@@ -27,7 +27,7 @@ jobs:
       run:
         shell: bash
 
-    name: 'Build SMK container image'
+    name: 'Test Deleting Older Images'
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     env:
@@ -39,40 +39,12 @@ jobs:
       DEBUG_DEPLOY: false
       
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v4
-      if: env.DEBUG_DEPLOY == 'false'
-      id: checkout
-      with:
-        fetch-depth: 0
-
-    - name: Building image
-      uses: bcgov/smk-actions/smk-build@main
-      id: buildSMKImage
-      with:
-        OPENSHIFT_SERVER_URL: ${{ secrets.OPENSHIFT_SERVER_URL }}
-        OPENSHIFT_TOKEN_DEV: ${{ secrets.OPENSHIFT_TOKEN_DEV }}
-        GHCR_USER: ${{ secrets.GHCR_USER }}
-        GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
-        DOCKER_REGISTRY: 'ghcr.io'
 
     - name: Deleting older images
       uses: actions/delete-package-versions@v5
       with:
         owner: 'github'
-        package-name: 'smk-firewood%2Fsmk-firewood'
+        package-name: 'smk-firewood/smk-firewood'
         package-type: 'container'
         token: ${{ secrets.GHCR_TOKEN }}
         min-versions-to-keep: 40
-
-    - name: deploying dev
-      uses: bcgov/smk-actions/smk-deploy@main
-      id: deploySMKContainer
-      with:
-        OPENSHIFT_SERVER_URL: ${{ secrets.OPENSHIFT_SERVER_URL }}
-        OPENSHIFT_TOKEN_DEV: ${{ secrets.OPENSHIFT_TOKEN_DEV }}
-        GHCR_USER: ${{ secrets.GHCR_USER }}
-        GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
-        DOCKER_REGISTRY: 'ghcr.io'
-        PR_REVIEWERS: '["michaelpnelson"]'
-        PR_MENTIONS: '["michaelpnelson"]'
