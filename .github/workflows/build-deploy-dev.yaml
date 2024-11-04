@@ -67,3 +67,11 @@ jobs:
         DOCKER_REGISTRY: 'ghcr.io'
         PR_REVIEWERS: '["michaelpnelson"]'
         PR_MENTIONS: '["michaelpnelson"]'
+
+    - name: Deleting older images
+      uses: actions/delete-package-versions@v5
+      with:
+        package-name: 'smk-firewood/smk-firewood'
+        package-type: 'container'
+        token: ${{ secrets.GHCR_TOKEN }}
+        min-versions-to-keep: 10
