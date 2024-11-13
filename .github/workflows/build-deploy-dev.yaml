@@ -50,7 +50,7 @@ jobs:
     - name: Deleting older images
       uses: actions/delete-package-versions@v5
       with:
-        package-name: 'smk-fap-bcfls/smk-fap-bcfls'
+        package-name: 'smk-fap-fcb/smk-fap-fcb'
         package-type: 'container'
         token: ${{ secrets.GHCR_TOKEN }}
         min-versions-to-keep: 2
