@@ -35,7 +35,7 @@ jobs:
       OPENSHIFT_TOKEN_DEV: ${{secrets.OPENSHIFT_TOKEN_DEV}}
       OPENSHIFT_TOKEN_PROD: ${{secrets.OPENSHIFT_TOKEN_PROD}}
       GHCR_USER: ${{ secrets.GHCR_USER }}
-      GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+      GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DEBUG_DEPLOY: false
       
     steps:
@@ -53,7 +53,7 @@ jobs:
         OPENSHIFT_SERVER_URL: ${{ secrets.OPENSHIFT_SERVER_URL }}
         OPENSHIFT_TOKEN_DEV: ${{ secrets.OPENSHIFT_TOKEN_DEV }}
         GHCR_USER: ${{ secrets.GHCR_USER }}
-        GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+        GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DOCKER_REGISTRY: 'ghcr.io'
 
     - name: deploying dev
@@ -63,7 +63,7 @@ jobs:
         OPENSHIFT_SERVER_URL: ${{ secrets.OPENSHIFT_SERVER_URL }}
         OPENSHIFT_TOKEN_DEV: ${{ secrets.OPENSHIFT_TOKEN_DEV }}
         GHCR_USER: ${{ secrets.GHCR_USER }}
-        GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+        GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DOCKER_REGISTRY: 'ghcr.io'
         PR_REVIEWERS: '["michaelpnelson"]'
         PR_MENTIONS: '["michaelpnelson"]'
@@ -73,5 +73,5 @@ jobs:
       with:
         package-name: 'smk-firewood/smk-firewood'
         package-type: 'container'
-        token: ${{ secrets.GHCR_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         min-versions-to-keep: 10
