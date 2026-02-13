@@ -1,18 +1,18 @@
 # smk-firewood
 
-An interactive map application for exploring forest management, land use, and protected areas data across British Columbia. Built with [SMK (Simple Map Kit)](https://github.com/bcgov/smk) and powered by [Leaflet](https://leafletjs.com/).
+An interactive map application for exploring forest management, land use and protected areas data across British Columbia. Built with [SMK (Simple Map Kit)](https://github.com/bcgov/smk) and powered by [Leaflet](https://leafletjs.com/).
 
 ## Overview
 
-SMK Firewood provides easy access to BC's comprehensive forest and land management geospatial data. The application displays provincial datasets including municipalities, parks, protected areas, forest tenure, conservation lands, and wildlife habitat areas sourced from authoritative BC government services.
+SMK Firewood provides easy access to BC's comprehensive forest and land management geospatial data. The application displays provincial datasets including municipalities, parks, protected areas, forest tenure, conservation lands and wildlife habitat areas sourced from authoritative BC government services.
 
 ## Features
 
 - **Interactive Map Interface**: Zoom and pan across British Columbia to explore forest and land management data
 - **Multiple Data Layers**: View and query:
-  - Municipalities, administrative boundaries, and natural resource districts
-  - Provincial Parks, Protected Areas, Conservancy Areas, and Ecological Reserves
-  - Forest Tenure, Managed Licenses, and Crown Land Leases
+  - Municipalities, administrative boundaries and natural resource districts
+  - Provincial Parks, Protected Areas, Conservancy Areas and Ecological Reserves
+  - Forest Tenure, Managed Licenses and Crown Land Leases
   - Conservation Lands and Wildlife Habitat Areas
   - Old Growth Management Areas (OGMAs) and Recreation Areas
 - **Layer Control**: Toggle visibility of layers and adjust opacity for comparative analysis
@@ -59,13 +59,12 @@ The application is configured through `smk-config.json`, which defines:
 
 - **Map Viewer**: Leaflet-based viewer with initial zoom level and extent centered on BC
 - **Base Map**: ESRI imagery basemap
-- **Layers**: ESRI dynamic layers and WMS services for forest management, protected areas, and land tenure data with custom styling and attributes
-- **Tools**: Layer panel, identify, and other interactive tools
-- **Attributes**: Display of detailed feature information including area, status, and administrative data
+- **Layers**: ESRI dynamic layers and WMS services for forest management, protected areas and land tenure data with custom styling and attributes
+- **Tools**: Layer panel, identify and other interactive tools
+- **Attributes**: Display of detailed feature information including area, status and administrative data
 
 ## Data Sources
 
-- **ESRI ArcGIS Services**: MPCM and BCGW data for municipalities, parks, protected areas, and forest management features
 - **WMS Services**: OGC Web Map Services from BC government geospatial infrastructure
 - **BC Geographic Warehouse**: Authoritative source for provincial forest and land management data
 
