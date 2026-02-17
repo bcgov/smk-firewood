@@ -15,8 +15,7 @@ SMK Firewood provides easy access to BC's comprehensive forest and land manageme
   - Forest Tenure, Managed Licenses and Crown Land Leases
   - Conservation Lands and Wildlife Habitat Areas
   - Old Growth Management Areas (OGMAs) and Recreation Areas
-- **Layer Control**: Toggle visibility of layers and adjust opacity for comparative analysis
-- **Queryable Features**: Click on map features to view detailed attribute information
+- **Layer Control**: Toggle visibility of layers
 - **Responsive Design**: Works on desktop and mobile devices
 
 ## Getting Started
@@ -60,8 +59,7 @@ The application is configured through `smk-config.json`, which defines:
 - **Map Viewer**: Leaflet-based viewer with initial zoom level and extent centered on BC
 - **Base Map**: ESRI imagery basemap
 - **Layers**: ESRI dynamic layers and WMS services for forest management, protected areas and land tenure data with custom styling and attributes
-- **Tools**: Layer panel, identify and other interactive tools
-- **Attributes**: Display of detailed feature information including area, status and administrative data
+- **Tools**: Layer panel, Geomark and other interactive tools
 
 ## Data Sources
 
