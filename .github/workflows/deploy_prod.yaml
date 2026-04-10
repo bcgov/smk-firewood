@@ -49,7 +49,7 @@ jobs:
         sed -i 's/ESRI_API_KEY/${{ secrets.ESRI_API_KEY }}/g' smk-config.json
 
     - name: deploying prod
-      uses: bcgov/smk-actions/smk-deploy@main
+      uses: bcgov/smk-actions/smk-deploy@update_gwa_wip
       id: deploySMKContainer
       with:
         OPENSHIFT_SERVER_URL: ${{ secrets.OPENSHIFT_SERVER_URL }}
