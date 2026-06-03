@@ -4,11 +4,8 @@
     "description": "My Simple Map Kit application.",
     "author": "Map Team",
     "dependencies": {
-        "@bcgov/smk": "1.2.4",
+        "@bcgov/smk": "1.2.6",
         "http-server": "^14.1.1"
-    },
-    "overrides": {
-        "follow-redirects": ">=1.15.5"
     },
     "scripts": {
         "view": "http-server -o -c-1"
