@@ -39,7 +39,7 @@ jobs:
     steps:
     # CHECKOUT THE CODE
     #
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       id: checkout
       with:
         fetch-depth: 0
