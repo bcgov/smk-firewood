@@ -1,7 +1,6 @@
 name: smk-composite-action-tests
 
-permissions:
-  actions: read
+permissions: read-all
 
 # used on push for testing / development
 # on:
